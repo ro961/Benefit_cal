@@ -1,0 +1,158 @@
+.screen{
+    background-color: greenyellow;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+        background-color: white;
+        width: 900px;
+        height: 600px;
+        border-radius:5px;
+        display: flex;
+        flex-direction: column;
+    
+}
+.head{
+    font-family: sans-serif;
+    font-size:x-large;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+.text{
+    font-family: sans-serif;
+    margin-top: auto;
+    font-weight: 100;
+    padding-left: 30px;
+    font-size:20ox;
+}
+.texts{
+    display: flex;
+
+}
+.window{
+    background-color: #f5f6f7;
+    height:100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    padding: 1px;
+}
+.card{
+    
+    margin:10px;
+    width: 250px;
+    height: 100px;
+    background-color:white;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.highlighted{
+    border-top:solid 3px greenyellow;
+    border-bottom:solid 3px greenyellow;
+
+
+}
+   
+.imgcard{
+    height: 70px;
+    width: 70x;
+    padding: 10px;
+    
+}
+.desc{
+    font-size:13px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desctext{
+    background-color:#e5e4e2 ;    
+    margin-top: 8px;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.bot{
+    height: 100px;
+    display: flex;
+}
+.es{
+
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    width: 100%;
+}
+.but{
+    height: 45px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-right: 80px;
+
+}
+.count{
+    flex-direction: column;
+    margin:20px;
+}
+.benefits{
+    font-size: 7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+
+}
+.cash{
+    margin-top: 1px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .container {
+      max-width: 100%;
+      padding: 25px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .container {
+      max-width: 600px;
+      padding: 25px;
+    }
+    .bot{
+        display: flex;
+        flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 901px) and (max-width: 1200px) {
+    .container {
+      max-width: 900px;
+      padding: 25px;
+    }
+  }
+  
+  @media (min-width: 1201px) {
+    .container {
+      max-width: 1200px;
+      padding: 25px;
+    }
+  }
+
+    
