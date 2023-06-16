@@ -6,10 +6,10 @@ import Window from './Components/Window';
 
 const Home = () => {
     return (
-        <div className='container'>
+        <div className='screen'>
             <img src={imgL} alt='logo' height={80} width={250}>
             </img>
-            <div className='box'>
+            <div className='container'>
                 <Header/>
                 <Window/>
             </div>
